@@ -3,7 +3,12 @@
   "extends": ["tslint:recommended", "tslint-config-prettier"],
   "jsRules": {},
   "rules": {
-    "semicolon": true
+    "semicolon": true,
+    "ordered-imports": false,
+    "object-literal-sort-keys": false,
+    "member-access": [true, "no-public"],
+    "interface-name": false,
+    "interface-over-type-literal": false
   },
   "rulesDirectory": []
 }
